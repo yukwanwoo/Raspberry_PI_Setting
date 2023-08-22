@@ -1,8 +1,8 @@
 # 라즈베리파이 세팅
 ## 링크
 ### * [Raspberry Pi OS](#OS)
-### * [Install Node](#node)
-### * [Install VPN](#vpn)
+### * [Install Node](https://github.com/yukwanwoo/Raspberry_Pi_Install_Node)
+### * [Install VPN](https://github.com/yukwanwoo/Raspberry_Pi_Install_VPN)
 
 # Raspberry Pi OS <a id="OS"></a>
 
@@ -58,5 +58,5 @@ $ sudo raspi-config
 
 ## 링크
 ### * [Raspberry Pi OS](#OS)
-### * [Install Node](#node)
-### * [Install VPN](#vpn)
+### * [Install Node](https://github.com/yukwanwoo/Raspberry_Pi_Install_Node)
+### * [Install VPN](https://github.com/yukwanwoo/Raspberry_Pi_Install_VPN)
