@@ -56,6 +56,14 @@ $ sudo raspi-config
 #### S6 Network at Boot 옵션을 선택하여 활성화 하고 설정 화면을 탈출한다.
 ![image](https://github.com/yukwanwoo/Raspberry_PI_Setting/assets/69711779/95229773-0d95-4efe-a04f-9caf56332710)
 
+#### 터미널에 아래 멸령어를 입력하여 SWAP MEMORY를 설정하기 위한 파일을 편집기로 연다.
+````
+$ sudo vi /etc/dphys-swapfile
+````
+#### 아래 이미지와 같이 CONF_SWAPSIZE=100 부분을 수정하여 사용할 SWAP MEMORY의 용량을 설정한다.
+#### 32비트 OS 기준 최대 2047이며, 이를 초과하는경우 오류가 발생하니 주의한다.
+![image](https://github.com/yukwanwoo/Raspberry_PI_Setting/assets/69711779/b3094f87-cf98-4b99-abcd-58dbce6e9644)
+
 ## 링크
 ### * [Raspberry Pi OS](#OS)
 ### * [Install Node](https://github.com/yukwanwoo/Raspberry_Pi_Install_Node)
